@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DamageReceiver">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAEAEBAIAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\DamageReceiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DEBUGTEXT">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\DEBUGTEXT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grenade">
+    <Position X="7" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAAACAAAAAAAABAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\Grenade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GrenadeExplosion">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgQAAAAAAAAAAAAAABAEAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\GrenadeExplosion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GrenadeLauncher">
+    <Position X="5.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAABAABEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\GrenadeLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HUD">
+    <Position X="2.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAQAQAAAACEQAAgAAAgABAgBAAAAAIEBAAKABEgAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\HUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMM">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAABAAAAAAAAAgAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\LMM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseLook">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="MouseLook.RotationAxes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\m_Scripts\MouseLook.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAABAEACAAAAAAAAGAAAAAAIAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\m_Scripts\MouseLook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInventory">
+    <Position X="5.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEA=</HashCode>
+      <FileName>Assets\m_Scripts\PlayerInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerMovementkj">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CEQAAAQBICAAAAAAAAAAAQAAAAAEAEAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\playerMovementkj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RailGun">
+    <Position X="2.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gggAAAAIACIApQCAAQQAIAAAAAAEAAIACAAAAAgAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\RailGun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rocket">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAgAAAAAACAAAAAAAABAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\Rocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RocketExplosion">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAAACAAAAAAAABAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\RocketExplosion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RocketLauncher">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAAAAAAAAAAAAACAAAAAAAAEAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\m_Scripts\RocketLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="roundGravity">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAQBAAAAAAAAABAAAEAAAMAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\m_Scripts\roundGravity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGamePickUp">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgCAAAAAgAAAAAAAAAAAAAABAIAAAAAECAgA=</HashCode>
+      <FileName>Assets\m_Scripts\SimplePickUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SphereGravity">
+    <Position X="0.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgEACAAAAAQAAAAAAAAAAAEAAAMABAAAAAAAgA=</HashCode>
+      <FileName>Assets\m_Scripts\SphereGravity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

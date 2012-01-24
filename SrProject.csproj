@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1A07BC0C-7C6F-2D4A-4D48-476B29A38501}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>Irrelevant</RootNamespace>
+	<AssemblyName>Irrelvant</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_3_0;UNITY_3_3;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+	<Reference Include="Boo.Lang">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityScript">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <None Include="Assets\Misc Scripts\Visibility Culling\VisibilityCuller.js" />
+     <None Include="Assets\Misc Scripts\Visibility Culling\VisibilityCullingArea.js" />
+     <None Include="Assets\Misc Scripts\DisableComponentOnPause.js" />
+     <None Include="Assets\Misc Scripts\EnableWhenPaused.js" />
+     <None Include="Assets\Misc Scripts\FPSCounter.js" />
+     <None Include="Assets\Misc Scripts\HideGuiWhenPaused.js" />
+     <None Include="Assets\Misc Scripts\LevelLoadFade.js" />
+     <None Include="Assets\Misc Scripts\LoadGame.js" />
+     <None Include="Assets\Misc Scripts\LockCursor.js" />
+     <None Include="Assets\Misc Scripts\MusicPlayer.js" />
+     <Compile Include="Assets\m_Scripts\DamageReceiver.cs" />
+     <Compile Include="Assets\m_Scripts\DEBUGTEXT.cs" />
+     <Compile Include="Assets\m_Scripts\Grenade.cs" />
+     <Compile Include="Assets\m_Scripts\GrenadeExplosion.cs" />
+     <Compile Include="Assets\m_Scripts\GrenadeLauncher.cs" />
+     <Compile Include="Assets\m_Scripts\HUD.cs" />
+     <Compile Include="Assets\m_Scripts\LMM.cs" />
+     <Compile Include="Assets\m_Scripts\MakeNode.cs" />
+     <Compile Include="Assets\m_Scripts\MouseLook.cs" />
+     <Compile Include="Assets\m_Scripts\PickUp.cs" />
+     <Compile Include="Assets\m_Scripts\PickUpAndThrow.cs" />
+     <Compile Include="Assets\m_Scripts\PlayerInventory.cs" />
+     <Compile Include="Assets\m_Scripts\playerMovementkj.cs" />
+     <Compile Include="Assets\m_Scripts\RailGun.cs" />
+     <Compile Include="Assets\m_Scripts\Rocket.cs" />
+     <Compile Include="Assets\m_Scripts\RocketExplosion.cs" />
+     <Compile Include="Assets\m_Scripts\RocketLauncher.cs" />
+     <Compile Include="Assets\m_Scripts\roundGravity.cs" />
+     <Compile Include="Assets\m_Scripts\SimplePickUp.cs" />
+     <None Include="Assets\m_Scripts\SimplePickUp2.js" />
+     <Compile Include="Assets\m_Scripts\SphereGravity.cs" />
+     <Compile Include="Assets\m_Scripts\UpgraderNodes.cs" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <None Include="Assets\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	
